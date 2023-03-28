@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: edad8f2611814064e823b4aff615285a, type: 3}
-  m_Name: RedShip
+  m_Name: BlackShip
   m_EditorClassIdentifier: 
-  shipName: RedShip
+  shipName: BlackShip
   damage: 20
   Renderer: {fileID: 1670888919011093497, guid: 4a22cfeba435813438e7d5803d2f4a09,
     type: 3}
