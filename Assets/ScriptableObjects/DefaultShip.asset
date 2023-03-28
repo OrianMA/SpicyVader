@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shipName: Default
   damage: 10
-  Renderer: {fileID: 3504072245608898538, guid: fc1fae5aa8f938a4b86e024ced9d3201,
+  Renderer: {fileID: 2730193401280822986, guid: b3de6b73c02444941b13dd44a5e9d944,
     type: 3}
