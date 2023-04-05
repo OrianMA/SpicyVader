@@ -12,11 +12,11 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     #endregion
 
     [SerializeField] Transform spawnPoint;
+    [SerializeField] Transform playerRendererParent;
     GameObject currentShip;
     public void Init()
     {
-        currentShip = Instantiate(playerStats.Renderer.gameObject, playerController.rendererParent.transform);
-        currentShip.transform.position = spawnPoint.position;
-        currentShip.transform.rotation = spawnPoint.rotation;
+        currentShip = Instantiate(playerStats.Renderer.gameObject, playerRendererParent);
+        playerController.Init();
     }
 }

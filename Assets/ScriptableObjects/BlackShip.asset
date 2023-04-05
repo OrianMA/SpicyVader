@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shipName: BlackShip
   damage: 20
+  speed: 50
+  health: 100
   Renderer: {fileID: 4936439507837591883, guid: 2a9810e8a40698f49a2dc5d2bf70a795,
     type: 3}

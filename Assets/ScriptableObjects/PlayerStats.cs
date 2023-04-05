@@ -7,5 +7,7 @@ public class PlayerStats : ScriptableObject
 {
     public string shipName;
     public float damage;
+    public float speed;
+    public float health;
     public GameObject Renderer;
 }
